@@ -1,0 +1,19 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "AIGV",
+    "description": "Application insight graph viewer",
+    "version": "0.1.0"
+  },
+  "produces": [
+    "application/json"
+  ],
+  "host": "localhost:3000",
+  "basePath": "/api",
+  "paths": {
+
+  },
+  "definitions": {
+
+  }
+}

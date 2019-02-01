@@ -1,0 +1,54 @@
+AngularJS - NodeJS ES6 boilerplate
+==================================
+
+This sample is a quick way to start an api in NodeJS with an AngularJs frontend skeleton.
+
+## Table of Contents
+  - [Table of Contents](#table-of-contents)
+  - [Project architecture](#project-architecture)
+  - [Docker / docker-compose version](#docker--docker-compose-version)
+  - [Getting Started](#getting-started)
+  - [Scripts](#scripts)
+  - [Infos](#infos)
+
+## Project architecture
+
+```
+/api
+/controllers
+/models
+/modules
+/routes
+/test/*.spec.js
+server.js
+```
+* `/api` OpenAPI spec
+* `/controllers` Routes implementation
+* `/models` MongoDb models
+* `/modules` Lib
+* `/routes` Routes declaration
+* `/test` Unit test with chai/mocha 
+
+## Docker / docker-compose version
+
+- Docker version 18.06.1-ce, build e68fc7a
+- docker-compose version 1.21.0, build 5920eb0
+
+
+## Getting Started
+
+```bash
+# Clone it
+git clone git@github.com:bogardt/angularjs-node-es6.git
+cd angularjs-node-es6
+
+# Start project
+npm start
+
+# Run test
+npm test
+```
+
+## Infos
+
+You can also use the OpenAPI (swagger documentation) reachable on http://localhost:4000/docs

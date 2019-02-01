@@ -1,0 +1,28 @@
+{
+  "name": "app-insight-graph-viewer",
+  "version": "0.1.0",
+  "authors": [
+    "bogardt"
+  ],
+  "description": "application insight graph viewer",
+  "main": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/components"
+  ],
+  "appPath": "app",
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-sanitize": "~1.5.0",
+    "angular-cookies": "1.6.4",
+    "angular-ui-router": "^1.0.15",
+    "bootstrap": "3.3.7",
+    "oclazyload": "^1.1.0"
+  },
+  "resolutions": {
+    "angular": "~1.6.4"
+  },
+  "devDependencies": {}
+}
