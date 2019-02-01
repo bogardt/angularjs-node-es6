@@ -29,12 +29,6 @@ server.js
 * `/routes` Routes declaration
 * `/test` Unit test with chai/mocha 
 
-## Docker / docker-compose version
-
-- Docker version 18.06.1-ce, build e68fc7a
-- docker-compose version 1.21.0, build 5920eb0
-
-
 ## Getting Started
 
 ```bash
