@@ -36,6 +36,15 @@ server.js
 git clone git@github.com:bogardt/angularjs-node-es6.git
 cd angularjs-node-es6
 
+# Download front end dependencies
+bower install
+
+# Build front end sources
+grunt buid
+
+# If you want a livereload to dev some front
+grunt live
+
 # Start project
 npm start
 
